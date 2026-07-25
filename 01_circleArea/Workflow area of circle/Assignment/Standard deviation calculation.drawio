@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="-0-QU5MONbQ9W4Zcbizg">
+    <mxGraphModel dx="860" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-3" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="80" width="120" x="365" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-7" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Declare data array of 10 elements" vertex="1">
+          <mxGeometry height="60" width="310" x="270" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-9" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="For loop to add elements to that array" vertex="1">
+          <mxGeometry height="160" width="160" x="340" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-11" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Ask to add elements to that array" vertex="1">
+          <mxGeometry height="60" width="210" x="300" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-13" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397.5" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Call of the standard deviation equation and use teh data array in it&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="155" width="155" x="320" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-15" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-14" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Declare the equation for calculating standard deviation" vertex="1">
+          <mxGeometry height="130" width="130" x="330" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-18" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Declare the sum=0&lt;div&gt;and the mean =0&lt;/div&gt;&lt;div&gt;and teh numerator_result=0.0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="290" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-20" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-19" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="For loop to cycle throught the data array and to add it to the sum so that we can use it in caculating the mean" vertex="1">
+          <mxGeometry height="170" width="170" x="320" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-22" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-21" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Sum=sum+data[i]" vertex="1">
+          <mxGeometry height="150" width="150" x="330" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-24" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-23" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Mean=sum/10" vertex="1">
+          <mxGeometry height="150" width="150" x="330" y="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-26" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-25" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="For loop to calcaulte the numerator result" vertex="1">
+          <mxGeometry height="130" width="130" x="345" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-28" edge="1" parent="1" source="wzE9EY1qoszOA0bxWjtJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402.5" y="2360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-27" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="return teh square of teh numerator result/10 to reach to standard deviation to use in teh main equation" vertex="1">
+          <mxGeometry height="235" width="235" x="285" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="wzE9EY1qoszOA0bxWjtJ-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="End" vertex="1">
+          <mxGeometry height="115" width="115" x="345" y="2360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
