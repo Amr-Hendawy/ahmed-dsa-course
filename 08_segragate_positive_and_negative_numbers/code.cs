@@ -9,6 +9,7 @@ class Program
 
         segregate(array, start, mid);
         segregate(array, mid + 1, end);
+        merge(array, start, mid, end);
     }
 
     public static void merge(int[] array, int start, int mid, int end)
@@ -28,35 +29,46 @@ class Program
 
         for (j = 0; j < right_length; j++)
         {
-            right_array[j] = array[mid + i + 1];
+            right_array[j] = array[mid + j + 1];
         }
         i = 0;
         j = 0;
         k = start;
 
-        while (i < left_array && left_array[i] <= 0)
+        while (i < left_length &&  left_array[i] <= 0)
         {
             array[k] = left_array[i];
             i++;
             k++;
         }
 
-        while (j < right_array && right_array[i] <= 0)
+        while (j < right_length && right_array[j] <= 0)
         {
             array[k] = right_array[j];
             j++;
             k++;
         }
+
         while (i < left_length)
         {
             array[k] = left_array[i];
+            i++;
+            k++;
 
         }
         while (j < right_length)
         {
             array[k] = right_array[j];
+            j++;
+            k++;
         }
     }
-
+    public static void Main(string[] args)
+    {
+        int[] array = { 6, -5, 12, 10, -6, -1 };
+        Console.WriteLine(String.Join(", ", array));
+        segregate(array, 0, array.Length - 1);
+        Console.WriteLine(String.Join(", ", array));
+    }
 }
 
