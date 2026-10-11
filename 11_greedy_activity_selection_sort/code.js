@@ -18,4 +18,4 @@ e = [11, 11, 12, 14, 15, 16];
 
 console.log(activitySelectionSort(s, e));
 
-// O(n)
+// O(n)g
