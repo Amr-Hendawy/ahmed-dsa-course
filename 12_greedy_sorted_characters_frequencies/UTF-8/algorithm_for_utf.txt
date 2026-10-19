@@ -1,0 +1,11 @@
+Let's use Hashtable
+- create hashtable , the char is the key and the frequency is the value
+- for each char in the string check if there is a key in the hashtable with the same char
+- if ot exist then create one with value 1
+- if exist then get the value of it and increase it by 1
+- print hashtable
+
+{
+    "pepper" :5,
+    "Almond" :10
+}
