@@ -1,0 +1,10 @@
+Algorithm
+=========
+- Sum the first two frequencies
+- Sort the output in the table in the next column 
+- Move the remain frequencies to the next column
+Properties
+==========
+- No code could be used for more than one char
+- No code could be the saem of other code prefix
+- Long codes used for the least frequencies chars
